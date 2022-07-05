@@ -1,0 +1,52 @@
+.opening-section {
+  background-image: url(images/donation4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.opening-header {
+  font-size: 50px;
+}
+
+.opening-para {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
+
+.donate-today-section {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.money-div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.donate-today-h2 {
+  background-color: aliceblue;
+  border: 2px;
+  padding: 10px;
+  margin: 5px;
+  border: gray solid 0px;
+}

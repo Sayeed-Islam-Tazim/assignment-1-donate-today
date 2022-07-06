@@ -60,7 +60,7 @@ body {
 }
 
 #red-box {
-  background-color: tomato;
+  background-color: rgb(240, 143, 125);
   border: red solid 2px;
   color: red;
 }

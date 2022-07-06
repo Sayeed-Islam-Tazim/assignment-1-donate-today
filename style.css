@@ -1,3 +1,7 @@
+body {
+  font-family: "Arima", cursive;
+}
+
 .opening-section {
   background-image: url(images/donation4.jpg);
   background-repeat: no-repeat;
@@ -20,16 +24,20 @@
   padding-bottom: 10px;
 }
 
+#opening-para-edit {
+  color: gray;
+}
+
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-color: tomato;
   padding: 10px;
   font-weight: 700;
   color: white;
   border-radius: 10px;
 }
 
-.donate-today-section {
+.donate-plan-section {
   text-align: center;
   width: 100%;
   padding-top: 20px;
@@ -43,10 +51,140 @@
   margin-bottom: 10px;
 }
 
-.donate-today-h2 {
+.our-donate-plan-h2 {
   background-color: aliceblue;
   border: 2px;
   padding: 10px;
   margin: 5px;
   border: gray solid 0px;
+}
+
+#red-box {
+  background-color: tomato;
+  border: red solid 2px;
+  color: red;
+}
+
+.input-field {
+  border: none;
+}
+
+.line {
+  width: 50%;
+}
+
+.your-contribution-section {
+  text-align: center;
+}
+
+.first-flex {
+  display: flex;
+  margin: 0% 15% 0% 15%;
+}
+
+.sixty-width {
+  margin: 10px;
+  background-image: url(images/donation2.jpg);
+  width: 60%;
+}
+
+.forty-width {
+  margin: 10px;
+  background-image: url(images/donation4.jpg);
+  width: 40%;
+}
+
+.donate-today-section {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.one-third-width {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.food-color {
+  background-color: rgb(161, 241, 215);
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.family-color {
+  background-color: pink;
+  text-align: left;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.education-color {
+  background-color: antiquewhite;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.get-updates-section {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.donate-para-edit {
+  color: gray;
+  text-align: start;
+}
+
+.email-div {
+  background-color: pink;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100px;
+  justify-content: center;
+}
+
+.email-div-items {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-input {
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  background-color: darkgrey;
+  color: white;
+}
+
+.subscribe-button {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 10px;
+  font-weight: 700;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.footer-section {
+  background-color: rgb(3, 3, 22);
+  text-align: center;
+}
+
+.footer-para {
+  padding-top: 10px;
+  color: tomato;
+  font-family: "Splash", cursive;
+}
+
+.footer-small {
+  color: white;
+  font-size: 8px;
 }
